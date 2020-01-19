@@ -1,13 +1,16 @@
 package com.jeyhamilton.myapplication.common
 
-class Ciudad(nombre: String, grados: Int, status: String) {
-    var nombre: String = ""
-    var grados: Int = 0
-    var status: String = ""
+import com.jeyhamilton.myapplication.common.api.Main
+import com.jeyhamilton.myapplication.common.api.Wheater
+
+class Ciudad(name: String, weather:ArrayList<Wheater>, main: Main) {
+    var name: String = ""
+    var weather: ArrayList<Wheater>? = null
+    var main: Main? = null
 
     init {
-        this.nombre = nombre
-        this.grados = grados
-        this.status = status
+        this.name = name
+        this.weather = weather
+        this.main = main
     }
 }
