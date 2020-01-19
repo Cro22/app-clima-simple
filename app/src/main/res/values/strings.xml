@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Climas</string>
+    <string name="grados">0</string>
+    <string name="ciudad">Maracay</string>
+    <string name="status">Nublado</string>
+    <string name="text_ciudades">Bienvenido, para ver el clima de una ciudad haz click en el boton</string>
+    <string name="boton_ciudades">Buscar Ciudades</string>
+    <string name="boton2_ciudades">Clima Maracay</string>
+</resources>

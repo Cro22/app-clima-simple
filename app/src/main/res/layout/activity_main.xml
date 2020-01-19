@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/design_default_color_primary_dark">
+
+    <TextView
+            android:text="@string/grados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvGrados"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="72dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:textSize="72sp"
+            android:textColor="@android:color/background_light"/>
+
+    <TextView
+            android:text="@string/ciudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCiudad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGrados"
+            android:layout_marginTop="48dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:textSize="36sp"
+            android:textColor="@color/colorCiudad"/>
+
+    <TextView
+            android:text="@string/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNublado"
+            app:layout_constraintTop_toBottomOf="@+id/tvCiudad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            android:textSize="30sp"
+            android:textColor="@color/colorStado"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
